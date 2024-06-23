@@ -1,0 +1,1194 @@
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-LightItalic.ttf");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-MediumItalic.ttf");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-Thin.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-ThinItalic.ttf");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-ExtraLight.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-ExtraLightItalic.ttf");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-DemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-DemiBoldItalic.ttf");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-BlackItalic.ttf");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "TT Firs Neue";
+    src: url("../fonts/TT Firs/TTFirsNeue-Black.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Tupo Vyaz";
+    src: url("../fonts/Tupo-Vyaz/Tupo-Vyaz_Thin.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Tupo Vyaz";
+    src: url("../fonts/Tupo-Vyaz/Tupo-Vyaz_Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Tupo Vyaz";
+    src: url("../fonts/Tupo-Vyaz/Tupo-Vyaz_Bold.ttf");
+    font-weight: 700;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container .row {
+    position: relative;
+}
+
+body {
+    font-family: "TT Firs Neue", sans-serif;
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #0b0e1b;
+}
+
+form {
+    position: relative;
+}
+
+.link-underline {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 14px;
+    color: #11d5ff;
+    text-decoration: underline;
+}
+
+.link-underline:hover {
+    text-decoration: none;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 16px 20px;
+    background-color: #ce2028;
+}
+
+.btn:hover {
+    background-color: #a71b21;
+}
+
+h1, h2, h3, h4, h5, a, p {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    transition: .2s;
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+}
+
+.sale-transparent {
+    font-family: "TT Firs Neue", sans-serif;
+    font-weight: 900;
+    font-size: 62px;
+    line-height: 62px;
+    color: #0b0e1b;
+    text-shadow: 0px 0px 3px #ce2028;
+    transform: rotate(-16deg);
+    position: absolute;
+}
+
+.news-title:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+h1 {
+    font-family: "Tupo Vyaz", sans-serif;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 84px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+h1 span {
+    position: absolute;
+    top: -10px;
+    right: -28px;
+}
+
+h2 {
+    font-family: "Tupo Vyaz", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    position: relative;
+}
+
+h3 {
+    font-family: "Tupo Vyaz", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+h4, .news-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.wrapper {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(21,26,48,1) 100%);
+    position: relative;
+}
+
+.wrapper-sales {
+    background-image: url("../images/texture-bg.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.wrapper-lights {
+    background-image: url("../images/lights-bg.png"), url("../images/light-mail.png");
+    background-repeat: no-repeat;
+    background-position: top center, 44% 115%;
+}
+
+
+
+/*******HEADER*******/
+header {
+    padding-top: 20px;
+    padding-bottom: 140px;
+    position: relative;
+    z-index: 10;
+}
+
+.header-top {
+    margin-bottom: 30px;
+}
+
+header nav a {
+    font-weight: 300;
+    margin-right: 23px;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+header nav a:hover {
+    color: #ce2028;
+}
+
+.worktime {
+    position: relative;
+    display: inline-block;
+    margin-right: 16px;
+    margin-left: 10px;
+}
+
+.worktime span {
+    width: 7px;
+    height: 7px;
+    display: block;
+    border-radius: 50%;
+    background-color: #11d5ff;
+    float: left;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+
+.phone {
+    font-weight: 400;
+}
+
+.phone img {
+    display: block;
+    float: left;
+    margin-right: 6px;
+}
+
+.phone:hover {
+    text-decoration: underline;
+}
+
+.chat-block {
+    display: inline-block;
+    float: right;
+}
+
+.chat-block a {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    margin-right: 5px;
+}
+
+.chat-block a:last-child {
+    margin-right: 0;
+}
+
+.chat-block a:hover {
+    transform: scale(1.5);
+}
+
+header .btn {
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.burger-icon {
+    float: left;
+    margin-right: 14px;
+}
+
+.burger-icon span {
+    width: 26px;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+}
+
+.burger-icon span:nth-child(2) {
+    width: 20px;
+    margin: 6px 0;
+}
+
+.discount-block {
+    margin-top: 16px;
+    margin-left: -30px;
+}
+
+.discount-block a {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.discount-block a:last-child {
+    margin-right: 0;
+}
+
+.discount-block a:hover {
+    color: #ce2028;
+}
+
+.discount-blue, .discount-yellow {
+    font-family: "TT Firs Neue", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px;
+}
+
+.discount-block a span {
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+.discount-blue {
+    background-color: #11d5ff;
+    color: #ffffff;
+}
+
+.discount-yellow {
+    background-color: #c6f635;
+    color: #000000;
+}
+
+.search-block {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.search-block a {
+    position: relative;
+}
+
+.search-block input {
+    height: 24px;
+    width: 0;
+    padding: 0 24px 0 0;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .3s;
+    position: absolute;
+    top: 0;
+    right: 50px;
+    z-index: 1;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.search-block input:focus {
+    width: 170px;
+    z-index: 0;
+    border-bottom: 2px solid #f9f0da;
+}
+
+.search-block button {
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: -50px;
+    top: 2px;
+    cursor: pointer;
+}
+
+.search-block a span {
+    font-family: "Tupo Vyaz", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    padding: 10px 5px 0px 5px;
+    background-color: #ce2028;
+    position: absolute;
+    right: -18px;
+    top: -22px;
+}
+
+.texture-light {
+    position: absolute;
+    right: -26%;
+    top: -160%;
+    z-index: -3;
+}
+
+
+/*******BANNER*******/
+.banner {
+    padding-bottom: 210px;
+    position: relative;
+    z-index: 10;
+}
+
+.banner p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.texture-wave {
+    position: absolute;
+    left: -116%;
+    top: 15%;
+    z-index: -1;
+}
+
+.texture-sneakers-f {
+    position: absolute;
+    right: 10%;
+    top: -30%;
+    z-index: 1;
+}
+
+.texture-sneakers-b {
+    position: absolute;
+    right: 38%;
+    top: -12%;
+    z-index: -2;
+}
+
+.texture-model {
+    font-family: "Tupo Vyaz", sans-serif;
+    font-weight: 700;
+    font-size: 406px;
+    line-height: 406px;
+    color: #0b0e1b;
+    text-shadow: 0px 0px 3px #ffffff;
+    z-index: -3;
+    position: absolute;
+    right: -350px;
+    bottom: -132px;
+}
+
+
+/*******CATALOG*******/
+.catalog {
+    position: relative;
+    z-index: 10;
+    margin-top: -60px;
+}
+
+.catalog-item {
+    width: 100%;
+    height: 140px;
+    background-color: #000000;
+    border: #000000 1px solid;
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin-top: 30px;
+    position: relative;
+    display: block;
+}
+
+.catalog-item:hover {
+    border-color: #ce2028;
+}
+
+.catalog-item h3 {
+    padding-top: 15px;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+.catalog-item p {
+    color: #ce2028;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+}
+
+.item-gift {
+    background-color: #ce2028;
+    background-position: 80% -20%, 35% 55%;
+}
+
+.item-rent {
+    background-color: #0b0e1b;
+    border-color: #31364b;
+    background-position: center right, 78% 45%;
+}
+
+.question-block {
+    margin-top: 52px;
+    margin-left: 30px;
+}
+
+.question-block img {
+    float: left;
+    margin-right: 30px;
+}
+
+.question-block .link-underline {
+    margin-top: 12px;
+}
+
+
+/*******SALES*******/
+.sales {
+    padding-top: 160px;
+}
+
+.sales h2 {
+    margin-bottom: 20px;
+}
+
+.sales .discount-blue {
+    position: absolute;
+    right: 30px;
+    top: -5px;
+}
+
+.sales-item {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 118% 10%;
+    margin-bottom: 50px;
+}
+
+.sales-item .sale-transparent {
+    font-size: 46px;
+    line-height: 46px;
+    left: 15px;
+    top: -75px;
+    color: #0b0e1b;
+}
+
+.sales-item h3 {
+    font-family: "TT Firs Neue", sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.sales-item p {
+    font-weight: 100;
+    line-height: 18px;
+    color: #b3b9d1;
+    margin-bottom: 20px;
+}
+
+.item-content {
+    position: absolute;
+    left: 35px;
+    bottom: 35px;
+}
+
+.texture-sneakers {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.sales-furniture {
+    background-color: #c6f635;
+    background-position: 85% -160%, -200% -10%;
+}
+
+.sales-furniture h3 {
+    color: #000000;
+}
+
+.sales-furniture p {
+    color: #5c5c5c;
+}
+
+.sales-furniture .sale-transparent, .sales-sled .sale-transparent {
+    text-shadow: none;
+    color: #ffffff;
+}
+
+.sales-sled {
+    background-color: #0a3223;
+    background-position: 25% 55%, -70% 10%;
+}
+
+.sales-sled h3 {
+    color: #ffffff;
+}
+
+.sales-sled p {
+    color: #aaccbf;
+}
+
+
+/*******NOVELTY*******/
+.novelty {
+    padding-top: 140px;
+}
+
+.novelty-item {
+    width: 100%;
+    background-color: #000000;
+    padding: 10px 10px 20px 10px;
+    border: 1px #000000 solid;
+    transition: .2s;
+}
+
+.novelty-item:hover {
+    border: 1px #ce2028 solid;
+}
+
+.novelty-content {
+    padding-left: 15px;
+}
+
+.item-img {
+    display: block;
+    height: 243px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.novelty-item p {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.novelty-item h5 {
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+
+.orb {
+    width: 7px;
+    height: 7px;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.orb-red {
+    background-color: #ce2028;
+}
+
+.orb-yellow {
+    background-color: #c6f635;
+}
+
+.orb-gray {
+    background-color: #b3b9d1;
+}
+
+.orb-orange {
+    background-color: #ff6c00;
+}
+
+.novelty-item h3 {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+.cost-red {
+    color: #ce2028;
+}
+
+.counter {
+    width: 71px;
+    height: 44px;
+    background-color: #ffffff;
+    border: 1px #ebebeb solid;
+}
+
+.counter input {
+    width: 30px;
+    height: 100%;
+    text-align: center;
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: "TT Firs Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.counter button {
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+    margin-right: 2px;
+    font-family: "TT Firs Neue", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    transition: .2s;
+}
+
+.counter button:hover {
+    background-color: #ce2028;
+}
+
+.novelty-item .btn img {
+    width: 17px;
+    height: 17px;
+    float: left;
+    margin-right: 10px;
+}
+
+.novelty-item .btn {
+    line-height: 20px;
+    padding: 12px 20px
+}
+
+.novelty-item .link-underline {
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 70px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.novelty-item .link-underline img {
+    position: absolute;
+    left: -14px;
+}
+
+.novelty-sale, .novelty-discount {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 5px;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.novelty-sale {
+    background-color: #ce2028;
+    top: 12px;
+    left: 12px;
+}
+
+.novelty-discount {
+    background-color: #11d5ff;
+    top: 12px;
+    left: 76px;
+}
+
+
+/*******BRANDS*******/
+.brands {
+    padding-top: 140px;
+}
+
+.brands h2 {
+    margin-bottom: 20px;
+}
+
+.brand-item {
+    width: 150px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-position: 35% 50%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.brand-item span {
+    width: 1px;
+    height: 50px;
+    background-color: #31364b;
+    display: block;
+    position: absolute;
+    right: -10px;
+    top: 30px;
+}
+
+.span-line {
+    width: 100%;
+    height: 1px;
+    background-color: #31364b;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.brand-catalog {
+    margin-bottom: 20px;
+}
+
+
+/*******FEATURES*******/
+.features {
+    padding-top: 140px;
+}
+
+.feature-item {
+    margin-bottom: 70px;
+}
+
+.feature-item img {
+    margin-bottom: 15px;
+}
+
+.feature-item h4 {
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+
+.feature-item p {
+    font-weight: 100;
+    color: #b3b9d1;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.feature-num {
+}
+
+.feature-num h3 {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.feature-num span {
+    width: 25px;
+    height: 2px;
+    background-color: #ce2028;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.feature-num p {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/*******STORES*******/
+.stores {
+    padding-top: 140px;
+}
+
+.store-item {
+    width: 100%;
+    background-color: #000000;
+    padding: 10px 10px 20px 10px;
+    border: 1px #000000 solid;
+    transition: .2s;
+}
+
+.store-item:hover {
+    border: 1px #ce2028 solid;
+}
+
+.store-item .item-img {
+    height: 180px;
+    background-size: auto;
+    background-position: right;
+}
+
+.store-item p {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: -16px;
+    margin-bottom: 15px;
+}
+
+.store-item .link-underline {
+    margin-left: -16px;
+}
+
+.store-content {
+    padding-left: 10px;
+}
+
+
+/*******NEWS*******/
+.news {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.news-item {
+    background-color: #0b0e1b;
+    border: 1px #31364b solid;
+    padding: 10px 10px 20px 10px;
+    transition: .2s;
+    margin-bottom: 40px;
+}
+
+.news-item .item-img {
+    height: 267px;
+    background-size: auto;
+}
+
+.news-item p {
+    font-weight: 100;
+    line-height: 18px;
+    color: #b3b9d1;
+}
+
+.news-item .news-title, .news-item p {
+    margin-bottom: 10px;
+}
+
+.news-item p, .news-item a {
+    padding-left: 12px;
+}
+
+.news h2 {
+    margin-bottom: 20px;
+}
+
+
+/*******MAIL*******/
+.mail {
+    background-color: #191c29;
+    padding: 60px 10px 55px 0;
+    border-bottom: 10px #11d5ff solid;
+    position: relative;
+    background-image: url("../images/mail-bg.png");
+    background-repeat: no-repeat;
+    background-position: -180px -45px;
+    z-index: 10;
+    margin-bottom: 140px;
+}
+
+.mail h2 {
+    margin-bottom: 10px;
+}
+
+.mail p {
+    font-weight: 100;
+    line-height: 20px;
+    color: #b3b9d1;
+    margin-bottom: 25px;
+}
+
+.mail form input {
+    width: 248px;
+    height: 46px;
+    border: 1px #ebebeb solid;
+    outline: none;
+    transition: .3s;
+    background-color: #ffffff;
+    padding-left: 15px;
+    margin-right: 20px;
+}
+
+.mail form input:focus {
+    border-color: #ce2028;
+}
+
+.mail form input::placeholder {
+    font-family: "TT Firs Neue", sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.mail form button {
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.arrow-texture {
+    position: absolute;
+    right: -140px;
+    top: -35px;
+}
+
+.mail-texture {
+    position: absolute;
+    right: -160px;
+    top: -125px;
+    z-index: -1;
+}
+
+.texture-light-mail {
+    position: absolute;
+    right: -160px;
+    top: -125px;
+    z-index: -1;
+}
+
+
+/*******FOOTER*******/
+footer {
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b3b9d1;
+    margin-bottom: 50px;
+}
+
+footer p:nth-last-child(2) {
+    margin-bottom: 8px;
+}
+
+footer .worktime {
+    margin: 0 0 10px 0;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+footer .phone {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+footer .link-underline img {
+    float: left;
+    margin-right: 5px;
+}
+
+footer .link-telegram {
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+footer .chat-block {
+    float: none;
+}
+
+footer .chat-block a {
+    width: 25px;
+    height: 25px;
+    background-size: 20px;
+}
+
+footer .underline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 24px;
+}
+
+footer .underline-block:last-child {
+    margin-right: 0;
+    float: right;
+}
+
+footer h5 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+footer h5:nth-last-child(2) {
+    margin-left: 25px;
+}
+
+footer .underline-block a {
+    display: block;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 15px;
+}
+
+footer .underline-block a:last-child {
+    margin-bottom: 0;
+}
+
+.copyright {
+    margin-top: 40px;
+}
+
+.copyright p {
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.dev {
+    float: right;
+}
+
+.copyright .link-underline {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 12px;
+}
