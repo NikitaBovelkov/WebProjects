@@ -1,0 +1,760 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container .row {
+    position: relative;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+
+}
+
+
+    /******************HEADER******************/
+.header {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.header-top {
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: #e4e4e4 1px solid;
+}
+
+.header-top .quick-news {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 4px;
+}
+
+.header-top .quick-news img {
+    transform: rotate(-90deg);
+    margin-left: 10px;
+}
+
+.header-top .poor-vision {
+    transition: .2s;
+}
+
+.header-top .poor-vision a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: black;
+    display: block;
+    transition: .2s;
+}
+
+.header-top .poor-vision img {
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+.header-top .poor-vision:hover a {
+    text-decoration: underline;
+}
+
+.header-top .lang a {
+    color: #898989;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    padding-right: 20px;
+    transition: .2s;
+}
+
+.header-top .lang a:hover {
+    color: black;
+}
+
+.logo {
+    position: relative;
+}
+
+.header-main .logo img {
+    position: absolute;
+}
+
+.logo-img {
+    left: 108px;
+}
+
+.header-main p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #898989;
+    display: inline-block;
+}
+
+.logo h4 {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 800;
+    display: inline-block;
+    margin-left: 182px;
+    margin-top: 15px;
+}
+
+.work-time p, .work-address p {
+    margin-bottom: 8px;
+}
+
+.work-time h5 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.work-address {
+    margin-right: 22px;
+}
+
+.work-address h5 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 500;
+}
+
+.work-address a {
+    font-size: 10px;
+    font-weight: 500;
+    color: #79ad07;
+}
+
+.work-address a:hover {
+    text-decoration: underline;
+}
+
+.work-phone {
+    margin-left: -50px;
+    position: relative;
+}
+
+.phone-link p {
+    display: inline-block;
+}
+
+.phone-link a {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    padding-right: 10px;
+    transition: .2s;
+}
+
+.phone-link a:hover {
+    color: #79ad07;
+}
+
+.phone-button {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-right: 10px;
+    background: #eef7d9 url("images/phone.png") no-repeat 50% 54%;
+    transition: .2s;
+}
+
+.phone-button:hover {
+    box-shadow: 0 0 20px #5BE085FF;
+}
+
+.nav-bar {
+    margin-top: 20px;
+    padding: 26px 0 15px 0;
+    background-color: #f7f7f7;
+}
+
+.nav-bar nav a {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    transition: .2s;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.nav-bar nav a:hover {
+    color: #79ad07;
+}
+
+form {
+    position: relative;
+}
+
+.block-search form input {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #898989;
+    display: block;
+    padding: 12px 10px 12px 42px;
+    width: 240px;
+    border-radius: 20px;
+    border: none;
+    margin-top: -12px;
+}
+
+.block-search form input:focus {
+    outline: none;
+}
+
+.block-search form button {
+    position: absolute;
+    left: 16px;
+    top: 14px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+    /******************BANNER******************/
+.banner {
+    margin-bottom: 40px;
+}
+
+.news-card p, .news-line p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #efefef;
+    margin-bottom: 14px;
+}
+
+.tag {
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 700;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.tag-news {
+    background: #fcdec6;
+}
+
+.tag-info {
+    background: #c6f4fc;
+}
+
+.tag-event {
+    background: #f6f5ac;
+}
+
+.news-card {
+    width: 555px;
+    height: 400px;
+    border-radius: 5px;
+    padding: 184px 20px 20px 36px;
+    background: #e8e8e8 url("images/banner-img.png") no-repeat 50% 50%;
+    box-shadow: inset 0px -127px 47px -38px rgba(0,0,0,0.35);
+}
+
+.news-card h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+
+.btn-big {
+    padding: 16px 30px;
+    background: #eef7d9;
+    color: #79ad07;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    border: #e5eed1 2px solid;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.btn-big:hover {
+    background: #79ad07;
+    color: white;
+}
+
+.news-line {
+    position: relative;
+    display: inline-block;
+}
+
+.news-line h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
+.news-line p {
+    color: #898989;
+}
+
+#first-line {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+    /******************BLOCK-NEWS******************/
+.block-news {
+    margin-bottom: 120px;
+}
+
+.card-small {
+    width: 165px;
+    height: 165px;
+    border-radius: 5px;
+    background: #e8e8e8 url("images/student.png") no-repeat 68% 94%;
+    float: left;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+.news-data {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 700;
+    display: block;
+}
+
+.news-data img {
+    display: inline-block;
+    padding-right: 5px;
+    float: left;
+}
+
+.block-news .news-line {
+    margin-bottom: 34px;
+}
+
+.btn-slide {
+    background: #79ad07;
+    color: white;
+    transition: .3s;
+}
+
+.btn-slide:hover {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.card-item {
+    width: 360px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 25px 20px 30px 30px;
+}
+
+.card-item h2 {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-item p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #898989;
+}
+
+.card-item .btn-slide {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.ny-card {
+    height: 200px;
+    background: #36463f url("images/ny-card.png") 55% 65%;
+}
+
+.email-card {
+    background: #f7f7f7;
+}
+
+.email-link {
+    color: #79ad07;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.email-link:hover {
+    text-decoration: none;
+}
+
+.contacts-card {
+    background: #eef0e8;
+}
+
+.contacts-card p {
+    font-size: 12px;
+}
+
+.contacts-card .work-address p {
+    margin-bottom: 4px;
+    margin-top: 10px;
+}
+
+.contacts-card .work-address h5 {
+    padding-right: 120px;
+    margin-bottom: 2px;
+}
+
+.psycho-card {
+    background: #eeedda;
+}
+
+
+    /******************SECTION ABOUT******************/
+.about {
+    background: #f7f7f7;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-bottom: 120px;
+}
+
+.block-about h1 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.block-about p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #898989;
+    margin-bottom: 20px;
+    padding-right: 82px;
+}
+
+.director-block {
+    width: 304px;
+    height: 284px;
+    position: relative;
+    background: url("images/director.png") 106% 0% no-repeat;
+    margin-left: -80px;
+}
+
+.director-block h1 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 30px 18px;
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.director-block h1 span {
+    font-size: 240px;
+    color: transparent;
+    -webkit-text-stroke: 2px #79ad07;
+    position: absolute;
+    top: 35px;
+    left: -30px;
+}
+
+.director-block h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+}
+
+.director-block p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #898989;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+}
+
+.photo-block {
+    float: right;
+}
+
+.photo-practice {
+    width: 360px;
+    height: 186px;
+    background: url("images/practice.png") no-repeat 50% 50%;
+    border-radius: 5px;
+}
+
+.photo-work {
+    width: 113px;
+    height: 113px;
+    background: url("images/work.png") no-repeat 50% 50%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+
+.link-block {
+    margin-top: 70px;
+    margin-left: -45px;
+}
+
+.about-link {
+    color: #79ad07;
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.about-link:hover {
+    text-decoration: none;
+}
+
+
+    /******************COURSES******************/
+.courses {
+    margin-bottom: 120px;
+}
+
+.courses h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.courses h3 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+
+.tag-course {
+    background: #c6fce7;
+    color: black;
+}
+
+.course-item {
+    width: 100%;
+    height: 300px;
+    background-size: 100%;
+    border-radius: 5px;
+    transition: .4s;
+    box-shadow: inset 0px -200px 160px -82px rgba(0, 0, 0, 0.55);
+    padding: 20px 0px 20px 20px;
+}
+
+.course-sewing {
+    background: url("images/course-sewing.png") no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+.course-sewing a, .course-browsing a {
+    height: 100%;
+    display: block;
+}
+
+.course-browsing {
+    background: url("images/course-browsing.png") no-repeat 50% 50%;
+    background-size: 100%;
+}
+
+.course-sewing:hover, .course-browsing:hover {
+    background-size: 110%;
+}
+
+.courses .btn-slide {
+    margin-top: 25px;
+}
+
+
+    /******************HELP SECTION******************/
+.help {
+    margin-bottom: 120px;
+}
+
+.help-block {
+    width: 100%;
+    background: #eef0e8;
+    text-align: center;
+    padding: 40px 0px 40px 0px;
+}
+
+.help-block h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.help-block p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #898989;
+    margin-bottom: 5px;
+}
+
+.help-block-phone {
+    margin: 0 auto 12px auto;
+}
+
+.help-block .phone-button {
+    float: none;
+    margin-bottom: -8px;
+    background-color: #dce7c4;
+}
+
+.help-block .phone-link a {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.help-block .phone-link a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+    /******************RESOURCES******************/
+.resources {
+    margin-bottom: 120px;
+}
+
+.resources h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+.res-item {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+    /******************FOOTER******************/
+.footer {
+    background: #f7f7f7;
+    padding: 40px 0;
+}
+
+.footer .logo img {
+    float: left;
+}
+
+.footer .logo h4 {
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 18px;
+}
+
+.footer .logo p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #898989;
+    display: block;
+    float: left;
+    margin-top: 20px;
+}
+
+.footer-nav h5 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 15px;
+}
+
+.footer-nav nav a {
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    display: block;
+    margin-bottom: 8px;
+    transition: .2s;
+}
+
+.footer-nav nav a:hover {
+    color: #79ad07;
+}
+
+.footer .work-time {
+    margin-top: 10px;
+}
+
+.footer .work-phone p, .work-time p, .work-address p {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #898989;
+}
+
+.footer .work-address p {
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.footer .work-address h5 {
+    padding-right: 70px;
+}
+
+.footer .email-link {
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 14px;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.footer .email-link:hover {
+    color: #79ad07;
+}
