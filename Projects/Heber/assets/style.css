@@ -1,0 +1,612 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container .row {
+    position: relative;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    overflow-x: hidden;
+    position: relative;
+    background-image: url("images/branch-mid.png"), url("images/branch-down.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 105% 25%, -5% 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    background-image: url("images/branch-up.png"), url("images/wrapper-bg.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 100%, 50% 0%;
+}
+
+
+    /***********HEADER***********/
+
+.header {
+    padding-top: 15px;
+    padding-bottom: 40px;
+    background-image: url("images/lamp.png");
+    background-repeat: no-repeat;
+    background-position: 108% 0%;
+}
+
+.header nav {
+
+}
+
+.header nav a {
+    color: #777;
+    font-size: 14px;
+    position: relative;
+    padding-right: 26px;
+    display: inline-block;
+    transition: .2s;
+}
+
+.header nav a:hover {
+    text-decoration: none;
+    color: #01d1ff;
+}
+
+.header h5 {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.header .link-black {
+    color: black;
+    font-size: 16px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+
+.header .link-black:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.link-phone {
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    transition: .2s;
+}
+
+.link-phone:hover {
+    color: #01d1ff;
+}
+
+.link-whatsapp {
+    font-size: 14px;
+    color: black;
+    text-decoration: underline;
+    padding-right: 10px;
+    transition: .2s;
+}
+
+.link-telegram {
+    font-size: 14px;
+    color: black;
+    text-decoration: underline;
+    transition: .2s;
+}
+
+.link-whatsapp:hover, .link-telegram:hover {
+    text-decoration: none;
+    color: #01d1ff;
+}
+
+.header .soc-net-block {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.header .header-top {
+    padding-bottom: 35px;
+}
+
+.btn-blue {
+    padding: 14px 22px;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-block;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 16px;
+    box-shadow: inset 0px 0px 10px white;
+    background: #3cb0f9ff;
+    border-radius: 40px;
+    transition: .4s;
+}
+
+.btn-blue:hover {
+    background: #01d1ff;
+}
+
+
+    /***********BANNER***********/
+
+.banner {
+    background-image: url("images/leaves.png"), url("images/conditioner.png"), url("images/smoke-white.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 115% -84%, 100% -20%, 90% -5%;
+    padding-bottom: 180px;
+}
+
+.benefits {
+    width: 240px;
+    background: white;
+    border-radius: 15px;
+    padding: 30px 28px 0px 30px;
+    box-shadow: 0px 10px 10px #e4e4e3;
+}
+
+.benefits-item {
+    padding-bottom: 30px;
+}
+
+.benefits-item img {
+    float: left;
+    padding-right: 15px;
+}
+
+.benefits-item h4 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.benefits-item p {
+    color: #777;
+    padding-top: 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: 800;
+    background: linear-gradient(45deg, rgba(0,0,0,0.5665616588432247) 0%, rgba(0,0,0,1) 52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgba(255,255,255,1);
+    padding-bottom: 15px;
+    padding-right: 35px;
+}
+
+.banner h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 45px;
+}
+
+.banner h5 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.circle {
+    float: left;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(6,212,255,1) 30%, rgba(22,147,246,1) 74%);
+    width: 12px;
+    height: 12px;
+    position: relative;
+    margin-top: 4px;
+}
+
+.circle:before {
+    content: '';
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 28%;
+    left: 24%;
+    width: 50%;
+    height: 48%;
+}
+
+.list {
+    padding-bottom: 15px;
+}
+
+.btn-blue-cond {
+    position: relative;
+    margin-top: 55px;
+}
+
+.btn-blue-cond img {
+    position: absolute;
+    bottom: 0;
+}
+
+.banner .btn-blue {
+    padding: 0px 30px 0px 125px;
+    text-align: center;
+    line-height: 5;
+}
+
+
+    /***********ITEMS***********/
+
+.items {
+    padding-bottom: 160px;
+}
+
+.item-card {
+    border-radius: 15px;
+    background-repeat: no-repeat;
+}
+
+.item-card h2 {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.item-card h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.card-1 {
+    background-color: #f6feff;
+    background-image: url("images/conditioner-wall.png");
+    padding: 30px 60px 170px 30px;
+    background-position: -270% 90%;
+}
+
+.card-2 {
+    background-color: #eaf3fa;
+    background-image: url("images/conditioner-casset.png");
+    padding: 30px 60px 240px 30px;
+    background-position: 280% 85%;
+    margin-top: -30px;
+}
+
+.card-3 {
+    background-color: #f1eeeb;
+    background-image: url("images/conditioner-roof.png");
+    padding: 30px 60px 175px 30px;
+    background-position: -180% 85%;
+    margin-top: -60px;
+}
+
+.card-4 {
+    background-color: #deeff1;
+    background-image: url("images/conditioner-canal.png");
+    padding: 30px 60px 200px 30px;
+    background-position: -180% 78%;
+    margin-top: 35px;
+}
+
+.card-5 {
+    background-color: #dbe9f9;
+    background-image: url("images/conditioner-prec.png");
+    padding: 30px 60px 290px 30px;
+    background-position: 68% 195%;
+    margin-top: 35px;
+}
+
+.card-6 {
+    background-color: #e0f4de;
+    background-image: url("images/multisplit.png");
+    padding: 30px 60px 260px 30px;
+    background-position: 150% 85%;
+    margin-top: -60px;
+}
+
+.card-7 {
+    background-color: #defbf9;
+    background-image: url("images/multizone.png");
+    padding: 30px 60px 205px 30px;
+    background-position: 125% 150%;
+    margin-top: -196px;
+}
+
+.card-8 {
+    background-color: #e8ecec;
+    background-image: url("images/chillers.png");
+    padding: 30px 60px 227px 30px;
+    background-position: 200% 175%;
+    margin-top: -100px;
+}
+
+
+    /***********CATALOG***********/
+
+.catalog {
+    padding-bottom: 160px;
+}
+
+.catalog h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.catalog h5 {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.menu {
+    padding: 18px 10px 18px 40px;
+    border: #dadada 1px solid;
+    border-radius: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    margin-bottom: 10px;
+}
+
+.menu h6 {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-right: 35px;
+}
+
+.catalog-item {
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px #e4e4e3;
+    margin-top: 60px;
+    padding: 0 30px 30px 30px;
+}
+
+.catalog-item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.catalog-item h4 {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.catalog-item p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 28px;
+}
+
+.catalog-item p span {
+    color: black;
+    font-weight: 600;
+}
+
+.catalog-item h4 span {
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.catalog-item .btn-blue {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.catalog-item-link {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #17a8f9;
+    position: relative;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.catalog-item-link:hover {
+    text-decoration: none;
+}
+
+.catalog-item-link img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+    /***********COMPANIES***********/
+
+.companies {
+    padding-bottom: 140px;
+}
+
+.companies h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.company-item {
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px #e4e4e3;
+    padding: 50px 24px;
+    margin-top: 30px;
+}
+
+.companies .btn-blue {
+    margin-top: 35px;
+}
+
+
+    /***********DELIVERY***********/
+
+.delivery {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.delivery h1 {
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 90px;
+}
+
+.delivery-list {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.delivery-list img {
+    float: left;
+    padding-right: 15px;
+}
+
+.delivery-list p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.delivery-wrapper {
+    background-image: url("images/delivery-bg.png");
+    background-repeat: no-repeat;
+    background-position: -75% 10%;
+    position: relative;
+}
+
+.car-texture {
+    position: absolute;
+    right: 330px;
+    top: 215px;
+    z-index: 1;
+}
+
+.leaves-texture {
+    position: absolute;
+    right: 0px;
+    top: -70px;
+    z-index: 1;
+}
+
+.smoke-texture {
+    position: absolute;
+    right: 0px;
+    bottom: -370px;
+    z-index: 1;
+}
+
+
+    /***********QUESTIONS***********/
+
+.questions {
+
+}
+
+.questions h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.block-top {
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px #e4e4e3;
+    padding: 35px 24px;
+    margin-top: 30px;
+    max-width: 530px;
+}
+
+.block-top h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.block-top .circle {
+    margin-right: 10px;
+}
+
+.block {
+    margin-bottom: 10px;
+}
+
+.block p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 25px;
+    margin-top: 30px;
+    padding-right: 45px;
+}
+
+
+    /***********DOP-QUESTION***********/
+
+.dop-question {
+    padding-top: 200px;
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.dop-question h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.ask-block {
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px #e4e4e3;
+    padding: 35px 24px;
+    position: relative;
+    background-image: url("images/conditioner-ask-block.png");
+    background-repeat: no-repeat;
+    background-position: 310px 160px;
+    z-index: 0;
+}
+
+.ask-block p {
+    text-align: center;
+    color: #777777;
+    padding: 0 160px;
+}
+
+
+    /***********FOOTER***********/
+
+.footer {
+    padding-top: 50px;
+    border-top: #dadada 1px solid;
+    padding-bottom: 20px;
+}
+
+.footer .link-black {
+    color: black;
+    font-size: 16px;
+    padding-right: 40px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.footer .link-black:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer .soc-net-block {
+    text-align: right;
+}
+
+.footer h5 {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 20px;
+    text-align: right;
+    padding-left: 25px;
+}
