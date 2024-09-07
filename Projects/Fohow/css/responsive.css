@@ -1,0 +1,1018 @@
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        margin-bottom: 70px;
+    }
+
+    header span {
+        display: none;
+    }
+
+    header nav {
+        position: absolute;
+        right: 12px;
+        top: -42px;
+    }
+
+    header .btn {
+        position: absolute;
+    }
+
+    header .phone-link, header .btn {
+        margin-top: 20px;
+    }
+
+    .banner {
+        background-position: unset;
+        background-size: 1880px 1090px;
+        padding-top: 60px;
+    }
+
+    .banner-texture {
+        display: none;
+    }
+
+    .banner-comment {
+        right: -55px;
+        top: -105px;
+    }
+
+    .banner-video-button {
+        right: -90px;
+        top: 320px;
+        z-index: 1;
+    }
+
+    .banner-item {
+        margin-bottom: 70px;
+    }
+
+    .branch-texture {
+        left: -190px;
+        top: -60px;
+    }
+
+    .issues {
+        background-position: 85% -70%;
+        background-size: 1880px 1010px;
+        padding-top: 50px;
+        padding-bottom: 140px;
+    }
+
+    .issues h2 {
+        margin-bottom: 30px;
+    }
+
+    .girl-texture {
+        display: none;
+    }
+
+    .certificates {
+        z-index: 2;
+    }
+
+    .certificates-texture {
+        right: -530px;
+        z-index: -1;
+    }
+
+    .about {
+        padding-top: 70px;
+    }
+
+    .special-kit-texture {
+        display: none;
+    }
+
+    .about-block {
+        width: 720px;
+    }
+
+    .about-block p {
+        margin-left: 0;
+    }
+
+    .about .banner-video-button {
+        display: none;
+    }
+
+    .attachment {
+        z-index: 2;
+    }
+
+    .attachment-texture {
+        right: -690px;
+        bottom: -70px;
+        z-index: -1;
+    }
+
+    .features {
+        padding-bottom: 30px;
+        background-position: 84% 0;
+    }
+
+    .features-texture {
+        display: none;
+    }
+
+    .example {
+        z-index: 2;
+    }
+
+    .laptop-texture {
+        right: -410px;
+        bottom: -55px;
+        z-index: -1;
+    }
+
+    .example-block {
+        display: none;
+    }
+
+    .example h2 {
+        margin-bottom: 70px;
+    }
+
+    .example .banner-video-button {
+        top: -150px;
+        right: -50px;
+    }
+
+    .results {
+        padding-top: 60px;
+        padding-bottom: 310px;
+        background-size: 1880px 1450px;
+        margin-bottom: 0;
+    }
+
+    .item2 {
+        top: 140px;
+        right: -120px;
+    }
+
+    .item3 {
+        top: 390px;
+        right: -20px;
+    }
+
+    .item4 {
+        top: 90px;
+        right: 110px;
+    }
+
+    .item5 {
+        top: 90px;
+        right: -440px;
+    }
+
+    .item6 {
+        top: 410px;
+        right: -50px;
+    }
+
+    .item-pink {
+        top: 210px;
+        right: -60px;
+    }
+
+    .pic1 {
+        left: 290px;
+        top: 120px;
+    }
+
+    .pic2 {
+        right: 40px;
+        top: 420px;
+    }
+
+    .pic3 {
+        right: 270px;
+        top: 530px;
+    }
+
+    .pic4 {
+        left: 0;
+        top: -200px;
+    }
+
+    .auditory {
+        background-size: 1880px 2300px;
+        padding-top: 70px;
+        padding-bottom: 130px;
+    }
+
+    .results-item {
+        z-index: 1;
+    }
+
+    .auditory .btn {
+        margin-left: 154px;
+        top: 74px;
+    }
+
+    .auditory h3 img:first-child {
+        left: 20px;
+    }
+
+    .auditory h3 img:last-child {
+        right: 20px;
+    }
+
+    .auditory .branch-texture {
+        left: -270px;
+        top: -70px;
+    }
+
+    .video-nav {
+        float: none;
+        margin-bottom: 40px;
+    }
+
+    .video-btn {
+        left: 240px;
+    }
+
+    .video-item {
+        margin-bottom: 20px;
+    }
+
+    .reviews {
+        background-size: 1880px 1290px;
+        margin-bottom: -30px;
+        padding-bottom: 70px;
+    }
+
+    .reviews .video-btn {
+        left: 240px;
+    }
+
+    .bottle-texture {
+        display: none;
+    }
+
+    .gloves-texture {
+        display: none;
+    }
+
+    .request {
+        padding-top: 40px;
+    }
+
+    .request .banner-video-button {
+        right: -90px;
+        top: -180px;
+    }
+
+    .quest h2 {
+        font-size: 58px;
+    }
+
+    .quest-item h3 {
+        font-size: 26px;
+    }
+
+    .contact {
+        background-size: 1880px 850px;
+    }
+
+    .contact .branch-texture {
+        left: 506px;
+        top: -543px;
+    }
+
+    footer nav a {
+        text-align: right;
+        margin-bottom: 20px;
+    }
+
+    footer span {
+        margin-bottom: 90px;
+    }
+
+    .privacy {
+        text-align: right;
+    }
+
+
+
+    .banner-tim {
+        background-size: 1880px 1090px;
+    }
+
+    .banner-tim .curtain-texture {
+        left: 480px;
+        top: -540px;
+        z-index: -1;
+    }
+
+    .banner-tim .banner-comment {
+        right: -25px;
+        top: -195px;
+    }
+
+    .banner-tim .banner-video-button {
+        top: 320px;
+    }
+
+    .device-texture {
+        display: none;
+    }
+
+    .features-tim .curtain-texture {
+        left: 428px;
+        top: -905px;
+        z-index: -1;
+    }
+
+    .features-tim .branch-texture {
+        left: 525px;
+        top: -475px;
+    }
+
+    .auditory-tim .btn {
+        margin-left: 170px;
+    }
+
+    .request-texture {
+        display: none;
+    }
+}
+
+
+/*mobile*/
+@media (min-width: 300px) and (max-width: 767px) {
+    header {
+        margin-bottom: 60px;
+    }
+
+    header span {
+        margin-bottom: 20px;
+    }
+
+    header nav a {
+        margin-left: 62px;
+    }
+
+    header nav {
+        margin-bottom: 30px;
+    }
+
+    header .phone-link {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 52px;
+        line-height: 66px;
+    }
+
+    .issues h2, .about h2, .features h2, .results h2, .video h2, .reviews h2 {
+        font-size: 54px;
+        line-height: 72px;
+    }
+
+    .banner {
+        background-size: 1880px 1230px;
+        padding-top: 50px;
+        padding-bottom: 440px;
+    }
+
+    .banner .leader-line {
+        margin-bottom: 20px;
+    }
+
+    .banner-texture {
+        display: none;
+    }
+
+    .banner-comment {
+        display: none;
+    }
+
+    .banner-item {
+        margin-bottom: 45px;
+    }
+
+    .banner-video-button {
+        right: 70px;
+        top: 560px;
+        z-index: 1;
+    }
+
+    .issues {
+        padding-top: 40px;
+        padding-bottom: 0;
+        margin-bottom: 40px;
+        background-image: none;
+    }
+
+    .issues h2 {
+        margin-bottom: 30px;
+    }
+
+    .girl-texture {
+        display: none;
+    }
+
+    .certificates-texture {
+        display: none;
+    }
+
+    .about {
+        padding-top: 50px;
+        padding-bottom: 0;
+        background-size: 1880px 1340px;
+    }
+
+    .special-kit-texture {
+        display: none;
+    }
+
+    .about-block {
+        width: 530px;
+        top: -230px;
+        margin-bottom: 0;
+    }
+
+    .about-block img {
+        margin-bottom: 50px;
+    }
+
+    .about-block p img {
+        margin-bottom: 0;
+        top: -30px;
+        left: -20px;
+    }
+
+    .about .banner-video-button {
+        position: relative;
+        right: 0;
+        left: 250px;
+        top: 60px;
+    }
+
+    .about .btn {
+        position: absolute;
+        top: -170px;
+    }
+
+    .attachment {
+        background-size: 1880px 650px;
+        padding-top: 45px;
+        padding-bottom: 35px;
+    }
+
+    .attachment-texture {
+        display: none;
+    }
+
+    .features {
+        background-image: none;
+        padding-top: 60px;
+        padding-bottom: 0;
+    }
+
+    .features-texture {
+        display: none;
+    }
+
+    .example {
+        background-size: 1880px 730px;
+    }
+
+    .example .banner-video-button {
+        top: -10px;
+        right: -150px;
+    }
+
+    .example h2 {
+        margin-bottom: 60px;
+    }
+
+    .example p {
+        margin-bottom: 60px;
+    }
+
+    .laptop-texture {
+        display: none;
+    }
+
+    .example-block {
+        display: none;
+    }
+
+    .results {
+        padding-top: 60px;
+        background-size: 1880px 1918px;
+    }
+
+    .results-item {
+        z-index: 1;
+    }
+
+    .item2 {
+        top: -60px;
+        right: -250px;
+    }
+
+    .item3 {
+        top: 160px;
+        right: -270px;
+    }
+
+    .item4 {
+        top: -50px;
+        right: 200px;
+    }
+
+    .item5 {
+        top: 380px;
+        right: -250px;
+    }
+
+    .item6 {
+        top: -50px;
+        right: 10px;
+    }
+
+    .item-pink {
+        top: 190px;
+        right: -70px;
+    }
+
+    .pic1 {
+        left: 350px;
+        top: 20px;
+    }
+
+    .pic2 {
+        right: 410px;
+        top: 40px;
+    }
+
+    .pic3 {
+        right: 80px;
+        top: -10px;
+    }
+
+    .pic4 {
+        left: 70px;
+        top: 20px;
+    }
+
+    .auditory {
+        background-size: 1880px 2390px;
+        padding-top: 60px;
+        padding-bottom: 110px;
+        margin-bottom: 130px;
+    }
+
+    .auditory h3 img:first-child {
+        left: -20px;
+        top: 70px;
+    }
+
+    .auditory h3 img:last-child {
+        right: -20px;
+        top: 70px;
+    }
+
+    .auditory .btn {
+        margin-left: 62px;
+        top: 50px;
+    }
+
+    .auditory .branch-texture {
+        left: -280px;
+        top: -60px;
+    }
+
+    .video {
+        margin-bottom: 70px;
+    }
+
+    .video-nav {
+        float: none;
+        margin-bottom: 40px;
+    }
+
+    .video-btn {
+        left: 220px;
+    }
+
+    .video-item {
+        margin-bottom: 20px;
+    }
+
+    .reviews {
+        background-size: 1880px 1270px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        margin-bottom: 0;
+    }
+
+    .reviews .video-btn {
+        left: 210px;
+    }
+
+    .gloves-texture {
+        display: none;
+    }
+
+    .bottle-texture {
+        display: none;
+    }
+
+    .request {
+        background-size: 1880px 950px;
+        padding-top: 70px;
+        padding-bottom: 330px;
+    }
+
+    .request .banner-video-button {
+        right: 130px;
+        top: 40px;
+    }
+
+    .quest {
+        margin-bottom: 80px;
+    }
+
+    .quest h2 {
+        font-size: 44px;
+        line-height: 60px;
+        margin-bottom: 50px;
+    }
+
+    .quest-arrow {
+        width: 50px;
+        height: 50px;
+        right: 15px;
+        top: 30px;
+    }
+
+    .quest-item {
+        padding: 40px 0 0 20px;
+    }
+
+    .quest-item h3 {
+        font-size: 20px;
+    }
+
+    .quest-item img {
+        margin: 20px auto 0 auto;
+    }
+
+    .contact {
+        background-size: 1880px 960px;
+        padding-top: 70px;
+    }
+
+    .contact h2 {
+        font-size: 62px;
+    }
+
+    .contact .map-link {
+        margin-bottom: 40px;
+    }
+
+    .contact .branch-texture {
+        left: 296px;
+        top: -723px;
+    }
+
+    footer img {
+        margin-bottom: 30px;
+    }
+
+    footer span {
+        display: none;
+    }
+
+    footer nav {
+        margin-bottom: 30px;
+    }
+
+    footer nav a {
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    footer h4 {
+        font-size: 14px;
+    }
+
+    .privacy {
+        font-size: 14px;
+        line-height: 34px;
+        text-underline-offset: 4px;
+    }
+
+    .curtain-texture {
+        left: 298px;
+        top: -490px;
+        z-index: -1;
+    }
+
+    .banner-tim .banner-video-button {
+        right: 70px;
+        top: 560px;
+        z-index: 1;
+    }
+
+    .device-texture {
+        display: none;
+    }
+
+    .about-tim .banner-video-button a {
+        top: -40px;
+        left: -210px;
+    }
+
+    .about-tim .banner-video-button {
+        top: 40px;
+    }
+
+    .features-tim .curtain-texture, .features-tim .branch-texture {
+        display: none;
+    }
+
+    .auditory-tim .btn {
+        margin-left: 80px;
+    }
+
+    .request-texture {
+        display: none;
+    }
+}
+
+
+/*XS screen*/
+@media (min-width: 300px) and (max-width: 575px) {
+    p {
+        font-size: 16px;
+    }
+
+    header span {
+        display: none;
+    }
+
+    header nav a {
+        margin-left: 15px;
+    }
+
+    header .btn {
+        padding: 16px 12px;
+    }
+
+    header .phone-link {
+        font-size: 14px;
+    }
+
+    .banner .leader-line {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .banner p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .banner .btn-block .btn, .certificates .btn, .about .btn {
+        padding: 30px 42px;
+    }
+
+    .banner .btn-block-info img, .shopper-img {
+        display: none;
+    }
+
+    .banner .btn-block .btn-block-info {
+        left: 0;
+    }
+
+    .banner .btn-block .btn-block-info h5 {
+        padding: 22px 30px 30px 30px;
+    }
+
+    .issues h2, .about h2, .features h2, .results h2, .video h2, .reviews h2, .attachment h2, .example h2, .request h2, .quest h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .banner {
+        background-size: 1880px 1360px;
+    }
+
+    .banner-video-button {
+        right: 20px;
+        top: 780px;
+    }
+
+    .issues h2 span img {
+        width: 40px;
+        position: relative;
+        top: 8px;
+    }
+
+    .certificates h2, .auditory h2, .contact h2 {
+        font-size: 38px;
+        line-height: 44px;
+    }
+
+    .about {
+        background-size: 1880px 1710px;
+    }
+
+    .about .banner-video-button {
+        left: 10px;
+        top: 0;
+    }
+
+    .about-block {
+        margin-top: 220px;
+        width: 340px;
+        padding: 10px 0 20px 10px;
+    }
+
+    .example {
+        padding-bottom: 310px;
+        background-size: 1880px 870px;
+    }
+
+    .example .banner-video-button {
+        right: -250px;
+        top: 160px;
+    }
+
+    .results {
+        background-size: 1880px 2350px;
+        padding-bottom: 520px;
+    }
+
+    .results h2 {
+        margin-bottom: 40px;
+    }
+
+    .item2 {
+        top: 80px;
+        right: -20px;
+    }
+
+    .item3 {
+        top: 470px;
+        right: -20px;
+    }
+
+    .item4 {
+        top: -90px;
+        right: -20px;
+    }
+
+    .item5 {
+        top: 610px;
+        right: -40px;
+    }
+
+    .item6 {
+        top: 60px;
+        right: -20px;
+    }
+
+    .item-pink {
+        top: 440px;
+        right: -50px;
+    }
+
+    .pic1 {
+        left: 240px;
+        top: -20px;
+    }
+
+    .pic2 {
+        right: 230px;
+        top: 0;
+    }
+
+    .pic3 {
+        right: 40px;
+        top: 60px;
+    }
+
+    .auditory {
+        background-size: 1880px 3210px;
+        padding-bottom: 160px;
+        margin-bottom: 100px;
+    }
+
+    .auditory h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .auditory .btn {
+        margin-left: 11px;
+        top: 88px;
+        padding: 30px 32px;
+    }
+
+    .auditory .branch-texture {
+        display: none;
+    }
+
+    .auditory h3 img:first-child {
+        left: -10px;
+        top: 140px;
+    }
+
+    .auditory h3 img:last-child {
+        right: -10px;
+        top: 140px;
+    }
+
+    .video h2 {
+        margin-bottom: 45px;
+    }
+
+    .btn-page {
+        width: 76px;
+        height: 76px;
+    }
+
+    .btn-page img {
+        margin: 28px auto 0 auto;
+    }
+
+    .video-btn, .reviews .video-btn {
+        left: 120px;
+    }
+
+    .reviews {
+        background-size: 1880px 1400px;
+    }
+
+    .review-item {
+        padding: 40px 15px 0 20px;
+    }
+
+    .reviews .video-item {
+        height: 440px;
+    }
+
+    .review-item h3, .review-item h3 {
+        font-size: 16px;
+    }
+
+    .account-photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .request .banner-video-button {
+        right: -50px;
+    }
+
+    .quest-item {
+        padding: 40px 60px 0 20px;
+    }
+
+    .quest-item h3 {
+        font-size: 18px;
+    }
+
+    .contact .branch-texture {
+        display: none;
+    }
+
+    .contact .phone-link, .mail-link {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .contact .btn {
+        padding: 30px 40px 30px 50px;
+    }
+
+    footer nav {
+        float: none;
+        text-align: center;
+    }
+
+    footer nav a {
+        margin-left: 15px;
+    }
+
+    .banner-tim .banner-video-button {
+        right: 120px;
+        top: 730px;
+    }
+
+    .auditory-tim .btn {
+        margin-left: 50px;
+        top: 92px;
+    }
+}
