@@ -1,0 +1,392 @@
+/*common styles*/
+@media (min-width: 300px) and (max-width: 991px) {
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul li {
+        margin: 0 0 15px 0;
+    }
+
+    header .contact-link, footer .contact-link {
+        display: inline-block;
+    }
+
+    header .contact-link:first-child, footer .contact-link:first-child {
+        margin-right: 12px;
+    }
+
+    .item6 {
+        background-position: 80px -35px;
+    }
+
+    .feature-item .counter-lg {
+        display: none;
+    }
+
+    .feature-item .counter-tablet {
+        display: inline-block;
+    }
+
+    .catalog-item {
+        margin-bottom: 30px;
+    }
+
+    .market {
+        padding: 90px 0 0 0;
+    }
+
+    .market-item {
+        margin-bottom: 30px;
+    }
+
+    .about-texture {
+        display: none;
+    }
+
+    .collab p {
+        margin: 0 0 30px 0;
+    }
+
+    .nav-buttons a {
+        padding: 16px 20px;
+    }
+
+    .news-item {
+        padding: 14px 14px 30px 14px;
+        margin-bottom: 20px;
+    }
+
+    .contact .btn {
+        margin-bottom: 20px;
+    }
+
+    .contact-point {
+        line-height: 30px;
+    }
+}
+
+/*tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner {
+        padding: 110px 0 90px 0;
+    }
+
+    .banner h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .market h2 {
+        position: relative;
+        z-index: 1;
+    }
+
+    .laptop-texture {
+        left: 310px;
+        top: -87px;
+        z-index: 0;
+    }
+
+    .ozon-texture {
+        left: 580px;
+        top: -110px;
+    }
+
+    .about h4 {
+        margin-bottom: 20px;
+    }
+
+    .about-texture {
+        display: none;
+    }
+
+    .block-green {
+        width: 286px;
+    }
+
+    .collab .btn {
+        margin-bottom: 20px;
+    }
+
+    .more-info img {
+        left: -65px;
+    }
+
+    .news h2 {
+        font-size: 44px;
+    }
+
+    .news-img {
+        width: 300px;
+    }
+
+    .news-item .news-article {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .news-item .btn img {
+        right: 75px;
+    }
+
+    .contact h2 {
+        font-size: 52px;
+    }
+}
+
+/*mobile*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner {
+        padding: 110px 0 90px 0;
+    }
+
+    h1 {
+        font-size: 56px;
+        line-height: 56px;
+    }
+
+    .banner h3 {
+        line-height: 34px;
+    }
+
+    .banner .btn {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 32px 84px;
+    }
+
+    .catalog h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .market h2 {
+        font-size: 50px;
+        line-height: 50px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .laptop-texture {
+        left: 250px;
+        top: -87px;
+        z-index: 0;
+    }
+
+    .ozon-texture {
+        left: 250px;
+        top: -50px;
+    }
+
+    .about h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .about h4 {
+        margin-bottom: 20px;
+    }
+
+    .collab h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .collab h2 span {
+        font-size: 36px;
+        line-height: 36px;
+        margin-top: 10px;
+    }
+
+    .collab-point {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .block-green {
+        width: 466px;
+    }
+
+    .collab .btn {
+        margin-bottom: 20px;
+        padding: 34px 76px;
+    }
+
+    .more-info img {
+        left: -65px;
+    }
+
+    .news h2 {
+        font-size: 44px;
+        margin-bottom: 20px;
+    }
+
+    .nav-buttons {
+        float: none;
+        margin-bottom: 40px;
+    }
+
+    .news-img {
+        width: 480px;
+    }
+
+    .news-item .btn img {
+        right: 160px;
+    }
+
+    .contact h2 {
+        font-size: 52px;
+    }
+
+    .contact .contact-link {
+        display: block;
+    }
+
+    .contact a{
+        margin-right: 0;
+    }
+
+    .contact .whatsapp-link {
+        margin-right: 14px;
+    }
+
+    .messenger-link {
+        top: 0;
+        margin-bottom: 15px;
+    }
+
+    .contact .contact-link {
+        margin-bottom: 20px;
+    }
+}
+
+/*XS screen*/
+@media (min-width: 300px) and (max-width: 575px) {
+    nav ul li {
+        display: block;
+    }
+
+    .banner {
+        padding: 90px 0 90px 0;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .banner h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .banner .btn {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 32px 46px;
+    }
+
+    .catalog h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .market h2 {
+        font-size: 36px;
+        line-height: 42px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .laptop-texture, .ozon-texture {
+        display: none;
+    }
+
+    .about h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .about h4 {
+        margin-bottom: 20px;
+    }
+
+    .collab {
+        padding: 0;
+    }
+
+    .collab h2 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .collab h2 span {
+        font-size: 24px;
+        line-height: 32px;
+        margin-top: 10px;
+    }
+
+    .collab-point {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .block-green {
+        width: 286px;
+    }
+
+    .collab .btn {
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding: 26px 14px;
+    }
+
+    .more-info img {
+        display: none;
+    }
+
+    .news h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .nav-buttons {
+        float: none;
+        margin-bottom: 40px;
+    }
+
+    .news-img {
+        width: 300px;
+    }
+
+    .news-item .btn img {
+        right: 70px;
+    }
+
+    .contact h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .contact .contact-link {
+        display: block;
+    }
+
+    .contact a{
+        margin-right: 0;
+    }
+
+    .contact .whatsapp-link {
+        margin-right: 14px;
+    }
+
+    .messenger-link {
+        top: 0;
+        margin-bottom: 15px;
+    }
+
+    .contact .contact-link {
+        margin-bottom: 20px;
+    }
+}
