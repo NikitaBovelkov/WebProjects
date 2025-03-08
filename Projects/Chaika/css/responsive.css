@@ -1,0 +1,230 @@
+/*mobile*/
+@media (min-width: 300px) and (max-width: 767px) {
+    header {
+        margin-bottom: 40px;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 30px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0 0 15px 0;
+    }
+
+    nav ul li:last-child {
+        margin-bottom: 35px;
+    }
+
+    header .btn {
+        margin: 0 auto;
+        display: block;
+        max-width: 224px;
+    }
+
+    .banner {
+        padding-top: 70px;
+        margin-bottom: 230px;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    h2 {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    .seagull-texture {
+        right: -130px;
+        top: 20px;
+    }
+
+    .banner-item {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+
+    .banner .btn {
+        display: block;
+        padding: 22px 0;
+        text-align: center;
+    }
+
+    .banner-texture {
+        top: -782px;
+    }
+
+    .form-item {
+        margin-bottom: 30px;
+    }
+
+    .about h3 {
+        display: block;
+        text-align: center;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .pic1 {
+        height: 456px;
+    }
+
+    .text-right {
+        margin-left: 0;
+    }
+
+    .about .num-item {
+        bottom: -45px;
+    }
+
+    .text-about:last-child {
+        margin-bottom: 30px;
+    }
+
+    .about .num-block {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about .num-item:first-child {
+        margin-bottom: 20px;
+    }
+
+    .about .num-item:last-child {
+        left: 0;
+    }
+
+    .btn-block {
+        margin-left: 0;
+    }
+
+    .btn-block .btn-green {
+        margin-bottom: 20px;
+    }
+
+    .features {
+        margin-bottom: 110px;
+    }
+
+    .feature-item {
+        margin-bottom: 50px;
+    }
+
+    .feature-img {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .services h2 {
+        margin-bottom: 50px;
+    }
+
+    .list-all {
+        margin-top: 0;
+        margin-bottom: 35px;
+        float: none;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .service-item {
+        margin-bottom: 70px;
+    }
+
+    .caption-img {
+        width: 100%;
+        padding: 90px 0 50px 0;
+    }
+
+    .caption-img h3 {
+        font-size: 64px;
+        line-height: 70px;
+        margin-left: 0;
+    }
+
+    .caption-img h3 img {
+        left: 0;
+        top: -40px;
+    }
+
+    .caption-img .seagull-texture {
+        display: none;
+    }
+
+    .news {
+        margin-bottom: 80px;
+    }
+
+    .news h2 {
+        margin-bottom: 50px;
+    }
+
+    .news-item {
+        margin-bottom: 30px;
+    }
+
+    .photos {
+        margin-bottom: 60px;
+    }
+
+    .photos-item {
+        margin-bottom: 40px;
+    }
+
+    .instagram {
+        max-width: 100%;
+        padding: 20px 0 65px 0;
+    }
+
+    .instagram-headline {
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .phone-texture {
+        display: none;
+    }
+
+    .inst-circle {
+        max-width: 208px;
+        position: relative;
+        display: block;
+        margin: 0 auto 40px auto;
+        right: 0;
+    }
+
+    .instagram .btn {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .quest .btn, .quest .link-underline {
+        margin-bottom: 40px;
+    }
+
+    footer .btn {
+        float: none;
+        margin-top: 0;
+        display: block;
+        text-align: center;
+    }
+}
